@@ -41,7 +41,7 @@
 
 ---
 
-## 🇷🇺 Русский
+## ⬜🟦⬜ Русский
 
 **AirPLAi Tagger Pro** — расширение Chrome для удобной работы на https://plai-maker.airplaisports.com.
 
