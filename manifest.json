@@ -1,0 +1,61 @@
+{
+  "manifest_version": 3,
+  "name": "AirPLAi Tagger Pro by IntellDetect",
+  "version": "0.1.0",
+  "description": "Annotation toolkit",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "*://plai-maker.airplaisports.com/game/*",
+    "https://payload-airplay.intelldetect.com/*",
+    "https://gateway.intelldetect.com/*"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://plai-maker.airplaisports.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "payload.js"
+      ],
+      "matches": [
+        "*://plai-maker.airplaisports.com/*"
+      ]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "externally_connectable": {
+    "matches": [
+      "https://gateway.intelldetect.com/*"
+    ]
+  }
+}
