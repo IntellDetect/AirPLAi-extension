@@ -35,6 +35,10 @@
 - **Яркий интерфейс** — возвращает блёклым тегам, таймкодам и стрелкам замен чёткий, читаемый цвет. Работает автоматически, пока включён, — действий не требует.
 - **Плавающий пульт** — перетаскиваемый мини-плеер поверх страницы (на страницах матча `/game/`). Кнопки скорости 0.25×–4×; `⏯` пауза/воспроизведение; `◀`/`▶` шаг на один кадр; `−5с`/`−1с`/`+1с`/`+5с` перемотка. Перетащите панель, чтобы переместить её; потяните за угол справа снизу, чтобы изменить размер — позиция и размер запоминаются.
 
+> ℹ️ Если какой-то инструмент мешает, не приносит пользы или работает неправильно — его всегда можно
+> отключить: нажмите значок **Расширения** (пазл) на панели Chrome → выберите **AirPLAi Tagger Pro** →
+> выключите этот инструмент (или отключите всё главным переключателем).
+
 ---
 
 ## 🇺🇦 Українська
@@ -67,6 +71,10 @@
 - **Яскравий інтерфейс** — повертає блідим тегам, таймкодам і стрілкам замін чіткий, читабельний колір. Працює автоматично, поки ввімкнено, — дій не потребує.
 - **Плаваючий пульт** — перетягуваний міні-плеєр поверх сторінки (на сторінках матчу `/game/`). Кнопки швидкості 0.25×–4×; `⏯` пауза/відтворення; `◀`/`▶` крок на один кадр; `−5с`/`−1с`/`+1с`/`+5с` перемотка. Перетягніть панель, щоб перемістити; потягніть за кут справа знизу, щоб змінити розмір — позиція та розмір запам'ятовуються.
 
+> ℹ️ Якщо якийсь інструмент заважає, не приносить користі або працює неправильно — його завжди можна
+> вимкнути: натисніть значок **Розширення** (пазл) на панелі Chrome → виберіть **AirPLAi Tagger Pro** →
+> вимкніть цей інструмент (або вимкніть усе головним перемикачем).
+
 ---
 
 ## 🇬🇧 English
@@ -98,3 +106,7 @@ master switch turns them all off at once.
 - **Keyboard Interception** — the platform's keyboard shortcuts work on any layout. Type in your usual layout (e.g. Russian/Ukrainian) and the matching Latin key is sent, so shortcuts fire without switching layout. Inactive while you type in a text field.
 - **Bright UI** — restores greyed-out tags, timestamps and substitution arrows to a clear, readable colour. Works automatically while on — no action needed.
 - **Floating Transport** — a draggable mini-player overlay (on match `/game/` pages). Speed buttons 0.25×–4×; `⏯` play/pause; `◀`/`▶` step one frame; `−5s`/`−1s`/`+1s`/`+5s` seek. Drag the panel to move it; drag the bottom-right corner to resize — position and size are remembered.
+
+> ℹ️ If a tool feels annoying, isn't helpful, or doesn't work right, you can always turn it off: click the
+> **Extensions** (puzzle-piece) icon in Chrome's toolbar → choose **AirPLAi Tagger Pro** → switch that tool
+> off (or use the master switch to turn everything off).
